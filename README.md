@@ -59,9 +59,9 @@ Input (stdin)
 ```
 Your Output (stdout)
 ```
-0.555555
-0.333333
-0.166666
+0.5
+0.3333333333333333
+0.16666666666666666
 ```
 Expected Output
 ```
@@ -79,9 +79,9 @@ Input (stdin)
 ```
 Your Output (stdout)
 ```
-0.375000
-0.375000
-0.250000
+0.375
+0.375
+0.25
 ```
 Expected Output
 ```
