@@ -9,6 +9,15 @@ Tantangan tersebut berupa membuat Codingan untuk menghitung proporsi elemen posi
  # Solusi
 
 Disini saya menggunakkan bahasa Python 3, Lalu dalam kasus ini saya memanfaatkan fungsi filter dan ekspresi lambda untuk menghitung persentase bilangan positif, negatif, dan nol dalam sebuah array.
+```python
+n = len(arr)
+    positif = len(tuple(filter(lambda x:x>0 , arr)))
+    negatif = len(tuple(filter(lambda x:x<0, arr)))
+    nol = len(tuple(filter(lambda x:x==0, arr)))
+    print(positif/n)
+    print(negatif/n)
+    print(nol/n)
+```
 - Fungsi filter digunakan untuk memfilter elemen-elemen dalam sebuah array berdasarkan kriteria tertentu. Dalam hal ini, kriteria yang digunakan adalah nilai elemen array tersebut.
 - Ekspresi lambda digunakan untuk membuat fungsi anonim dalam satu baris ekspresi. Dalam hal ini, ekspresi lambda digunakan untuk menentukan kriteria filter.
   
